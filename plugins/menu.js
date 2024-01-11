@@ -17,6 +17,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
    │  ◦ setppbot
    │  ◦ setprefix
    │  ◦ sf/df
+   │  ◦ unban
    └  ◦ unbanwa 
 `
 }
