@@ -7,7 +7,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         
              OWNER
    ┌  ◦ addowner [@user]
-   │  ◦ mode
    │  ◦ addprem [@user] <days>
    │  ◦ ban
    │  ◦ getplugin [filename]
