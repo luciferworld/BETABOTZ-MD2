@@ -22,13 +22,13 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 					}
 				]
 			})
-			m.reply(`Sukses mengganti PP Bot`)
+			m.reply(`Successfully replaced PP Bot`)
 		} catch (e) {
 			console.log(e)
-			m.reply(`Terjadi kesalahan, coba lagi nanti.`)
+			m.reply(`An error occurred, try again later.`)
 		}
 	} else {
-		m.reply(`Kirim gambar dengan caption *${usedPrefix + command}* atau tag gambar yang sudah dikirim`)
+		m.reply(`Send pictures with captions*${usedPrefix + command}* or tag images that have been sent`)
 	}
 }
 
