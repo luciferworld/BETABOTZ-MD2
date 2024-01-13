@@ -41,16 +41,7 @@ let handler = async (m, {
     if (!text) throw `Contoh: ${usedPrefix + command} anak berlari menggunakan pakaian merah 3d animation`;
     try {
       m.reply(wait)
-      let response = await fetch('https://api.betabotz.eu.org/api/search/bing-img', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            text: text,
-            apikey: lann
-          })
-        })
+      let response = await fetch(`https://api.yanzbotz.my.id/api/text2img/bing-image?prompt=${text}&apiKey=punyakuaja`)
         .then(res => res.json());
 
       for (let i = 0; i < 4; i++) {
