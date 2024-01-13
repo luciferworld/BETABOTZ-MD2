@@ -6,39 +6,8 @@ let handler = async (m, {
   usedPrefix,
   command
 }) => {
-  if (command == 'bing') {
-    if (!text) throw `Example : ${usedPrefix + command} siapa presiden Indonesia?`;
-    try {
-    m.reply(wait)
-      let response = await fetch('https://api.betabotz.eu.org/api/search/bing-chat', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            text: text,
-            apikey: lann
-          })
-        })
-        .then(res => res.json());
-    await conn.sendMessage(m.chat, {
-    text: response.message,
-    contextInfo: {
-    externalAdReply: { 
-    title: 'Bing-Ai',
-    body: '',
-    thumbnailUrl: "https://telegra.ph/file/b6a2e82f30570afa1d082.jpg",
-    sourceUrl: "https://api.betabotz.eu.org",
-    mediaType: 1,
-    renderLargerThumbnail: true
-    }}}, { quoted: m})
-    } catch (e) {
-      console.log(e);
-      throw `*Error:* ${eror}`;
-    }
-  }
-  if (command == 'bingimg') {
-    if (!text) throw `Contoh: ${usedPrefix + command} anak berlari menggunakan pakaian merah 3d animation`;
+  
+  if (!text) throw `Example: ${usedPrefix + command} A cat in car`;
     try {
       m.reply(wait)
       let response = await fetch(`https://api.yanzbotz.my.id/api/text2img/bing-image?prompt=${text}&apiKey=punyakuaja`)
@@ -53,7 +22,7 @@ let handler = async (m, {
       throw `Error: ${eror}`
     }
   }
-}
+
 
 handler.command = handler.help = ['bing', 'bingimg']
 handler.tags = ['tools']
