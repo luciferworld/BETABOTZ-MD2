@@ -50,7 +50,7 @@ global.APIs = {
   btc: 'https://api.botcahx.eu.org'
 }
 global.APIKeys = { 
-  'https://api.betabotz.eu.org': 'beta-Ibrahim1209 //isi apikey mu https://api.betabotz.org
+  'https://api.betabotz.eu.org': 'beta-Ibrahim1209' //isi apikey mu https://api.betabotz.org
 }
 
 global.multiplier = 45
