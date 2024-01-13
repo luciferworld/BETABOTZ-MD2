@@ -13,24 +13,24 @@
 // Betabotz = digunakan hampir di semua fitur kecuali linkshort
 // Botcahx  = digunakan untuk linkshort saja ( optional )
 
-global.owner = ['6285842647866']  
-global.mods = ['6285842647866'] 
-global.prems = ['6285842647866']
-global.nameowner = 'Lann'
-global.numberowner = '6285842647866' 
-global.mail = 'fxacbapi.my.id@gmail.com' 
-global.dana = '6281395861695'
-global.pulsa = '6281395861695'
-global.gopay = '6281395861695'
-global.namebot = 'BETABOTZ-MD'
-global.gc = 'https://chat.whatsapp.com/G4f1fTpz9zL4EH3FyIcaPR'
-global.web = 'https://github.com/BOTCAHX'
-global.instagram = 'https://instagram.com/prm2.0'
-global.wm = 'Beta BOT-MD'
+global.owner = ['923229931076']  
+global.mods = ['923229931076'] 
+global.prems = ['923229931076']
+global.nameowner = 'Ibrahim'
+global.numberowner = '923229931076' 
+global.mail = 'theworldh95@gmail.com' 
+global.dana = '923229931076'
+global.pulsa = '923229931076'
+global.gopay = '923229931076'
+global.namebot = 'Lucifer - AI'
+global.gc = 'https://chat.whatsapp.com/'
+global.web = 'https://github.com/'
+global.instagram = ''
+global.wm = 'Lucifer - AI'
 global.watermark = wm
-global.wm2 = '⫹⫺ Beta Bot'
-global.wm3 = '© Lann'
-global.wm4 = 'made by BetaBotz-MD'
+global.wm2 = '⫹⫺ Lucifer - AI'
+global.wm3 = '© Ibrahim'
+global.wm4 = 'made by Lucifer - AI'
 global.wait = '_*Tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
@@ -43,14 +43,14 @@ global.author = 'Bot WhatsApp'
 global.thumb = 'https://telegra.ph/file/ec75e8bd53238f11603d9.jpg'
 
 //===> Apikey
-global.lann = 'Your_Key_Here' //isi apikey mu https://api.betabotz.eu.org
+global.lann = 'beta-Ibrahim1209' //isi apikey mu https://api.betabotz.eu.org
 global.btc = 'Your_Key_Here'//Isi apikey di https://api.botcahx.eu.org
 global.APIs = {   
   lann: 'https://api.betabotz.eu.org',
   btc: 'https://api.botcahx.eu.org'
 }
 global.APIKeys = { 
-  'https://api.betabotz.eu.org': 'Your_Key' //isi apikey mu https://api.betabotz.org
+  'https://api.betabotz.eu.org': 'beta-Ibrahim1209 //isi apikey mu https://api.betabotz.org
 }
 
 global.multiplier = 45
